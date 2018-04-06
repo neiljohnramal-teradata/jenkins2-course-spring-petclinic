@@ -111,7 +111,7 @@ public abstract class AbstractClinicServiceTests {
     @Test
     public void shouldFindPetWithCorrectId() {
         Pet pet7 = this.clinicService.findPetById(7);
-        assertThat(pet7.getName()).startsWith("Samantha");
+        assertThat(pet7.getName()).startsWith("Samanthaa");
         assertThat(pet7.getOwner().getFirstName()).isEqualTo("Jean");
 
     }
